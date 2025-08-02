@@ -60,6 +60,49 @@ cd school-management-system
 npm install
 
 ```
+# Screenshot
+
+![Dashbord](image.png)
+
+# Usage
+To run the server in development mode:
+```bash
+npm run dev
+
+```
+To start the server normally:
+```bash
+npm start
+
+```
+Access the API at
+```bash
+Access the API at
+
+```
+# API Endpoints
+## Table
+|MethodM| Endpoint          | Description    |
+|POST   | /api/auth/login   |Login to system |
+|GET    | /api/students     | Login to system| 
+|POST   | /api/students     |Login to system | 
+|PUT    | /api/students/:id |Login to system | 
+|DELETE | /api/tudents/:id | Login to system  |
+
+
+|methot| Endpoint      || Description     |
+|---   | -----          | ----            |-
+|POST  | /api/auth/login| Login to system ||
+|GET   | /api/auth/login| Login to system ||
+|POST  | /api/auth/login| Login to system ||
+|PUTE  | /api/auth/login| Login to system ||
+|dELETE| /api/auth/login| Login to system ||
+
+
+
+
+
+
 
 
 
