@@ -1,11 +1,11 @@
-# School Management System
+# 🏫School Management System
 [![app](https://img.shields.io/badge/School_management_system-Administrator-green)](https://getbootstrap.com)
 
  A Node.js-based application designed to simplify and automate school administrative tasks such as managing students, teachers, classes, attendance, and more.
 
  #
 
-# Table of contents
+# 📚Table of contents
 
 
 - [Flower](#Flower)
@@ -21,7 +21,7 @@
 
 #
 
-# Feature
+# ✨ Feature
 - Student & Teacher Management
 - Class & Subject Assignment
 - Attendance Tracking
@@ -30,7 +30,7 @@
 - Admin Dashboard
 #
 
-# Tech Stack
+# 🛠Tech Stack
 - Programming Language: JavaScript (Node.js)
 - Runtime: Node.js
 - Framework: Express.js
@@ -46,7 +46,7 @@
 
 #
 
-# Installation
+# 🚀 Installation
 
 Clone the project and install dependencies:
 ```link
@@ -64,7 +64,7 @@ npm install
 
 ![Dashbord](image.png)
 
-# Usage
+# 🔧Usage
 To run the server in development mode:
 ```bash
 npm run dev
@@ -80,23 +80,55 @@ Access the API at
 Access the API at
 
 ```
-# API Endpoints
-## Table
-|MethodM| Endpoint          | Description    |
-|POST   | /api/auth/login   |Login to system |
-|GET    | /api/students     | Login to system| 
-|POST   | /api/students     |Login to system | 
-|PUT    | /api/students/:id |Login to system | 
-|DELETE | /api/tudents/:id | Login to system  |
+# 📮API Endpoints
 
 
-|methot| Endpoint      || Description     |
-|---   | -----          | ----            |-
-|POST  | /api/auth/login| Login to system ||
-|GET   | /api/auth/login| Login to system ||
-|POST  | /api/auth/login| Login to system ||
-|PUTE  | /api/auth/login| Login to system ||
-|dELETE| /api/auth/login| Login to system ||
+|methot| Endpoint       | Description     |
+|---   | -----          | ----            |
+|POST  | /api/auth/login| Login to system |
+|GET   | /api/auth/login| Login to system |
+|POST  | /api/auth/login| Login to system |
+|PUTE  | /api/auth/login| Login to system |
+|dELETE| /api/auth/login| Login to system |
+
+# 🔑Environment Variables
+Create a .env file in the root directory and add:
+```bash
+PORT=3000
+DB_URI=your_database_connection_string
+JWT_SECRET=your_jwt_secret_key
+
+```
+🧪 Scripts
+```bash
+npm start       # Start the server
+npm run dev     # Start with nodemon
+npm test        # Run test cases
+
+```
+#
+
+# 👥 Contributors
+
+
+# 📄 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+```bash
+---
+Let me know:
+- if your project uses MongoDB or MySQL (so I can adjust that part),
+- if you want to include screenshots or setup diagrams,
+- or if you'd like this saved as a downloadable `.md` file.
+
+```
+
+
+
+
+
+
+
 
 
 
