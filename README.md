@@ -50,10 +50,17 @@
 
 Clone the project and install dependencies:
 ```link
-for i in range (10)
-    print(i)
+git clone https://github.com/your-username/school-management-system.git
+```
+```system
+cd school-management-system
 
 ```
+```bash
+npm install
+
+```
+
 
 
 
